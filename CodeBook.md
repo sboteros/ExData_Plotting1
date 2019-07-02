@@ -2,7 +2,7 @@
 
 This dataset is based on the "Individual housol electric power consumption
 data set", taken from the
-(UC Irvine Machine Learning Repository)[http://archive.ics.uci.edu/ml/], which
+[UC Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/), which
 contains measurements of electric power consumption in one household with a
 one-minute sampling rate over a period of almost 4 years.
 

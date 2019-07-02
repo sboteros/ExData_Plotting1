@@ -2,17 +2,17 @@
 
 This dataset is based on the "Individual housol electric power consumption
 data set", taken from the
-(UC Irvine Machine Learning Repository)[http://archive.ics.uci.edu/ml/], which
+[UC Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/), which
 contains measurements of electric power consumption in one household with a
 one-minute sampling rate over a period of almost 4 years.
 
-The variables in the dataset are explained in the (codebook)[CodeBook.md].
+The variables in the dataset are explained in the [codebook](CodeBook.md).
 
 # Software
 
-This code uses (`R`)[https://www.r-project.org/] with the libraries
-(`dplyr`)[https://dplyr.tidyverse.org/] and
-(`lubridate`)[https://lubridate.tidyverse.org/].
+This code uses [`R`](https://www.r-project.org/) with the libraries
+[`dplyr`](https://dplyr.tidyverse.org/) and
+[`lubridate`](https://lubridate.tidyverse.org/).
 
 # Contents
 
