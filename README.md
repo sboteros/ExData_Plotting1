@@ -1,6 +1,6 @@
 # Dataset
 
-This dataset is based on the "Individual housol electric power consumption
+This dataset is based on the "Individual housold electric power consumption
 data set", taken from the
 [UC Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/), which
 contains measurements of electric power consumption in one household with a
@@ -17,7 +17,7 @@ This code uses [`R`](https://www.r-project.org/) with the libraries
 # Contents
 
 This repo generates 4 graphs using the R base plotting system using the
-(dataset)[#Dataset] for the period between February 1st and February 2nd of
+[dataset](#Dataset) for the period between February 1st and February 2nd of
 2007. For each graph, there is an independent code that reads the data and saves
 the graph in a bitmapped file. It generates the following plots:
 
