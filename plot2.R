@@ -6,10 +6,9 @@
 # Date: 2019/06/30
 # Encoding: UTF-1
 
-# Objective: Reproduce the following graphic "./figue/unnamed-chunk-3".
+# Objective: Reproduce the following graphic "./figue/unnamed-chunk-3.png".
 
-setwd(file.path("d:", "Users", "sbotero", 
-                "Comisión Federal de Competencia Económica", "Varios - General", 
+setwd(file.path("C:", "Users", "sbote", "OneDrive", "Documentos", 
                 "DataScienceSpecialization", "4 Exploratory data analysis", 
                 "Week1", "ExData_Plotting1"))
 

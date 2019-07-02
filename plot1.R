@@ -6,7 +6,7 @@
 # Date: 2019/06/30
 # Encoding: UTF-1
 
-# Objective: Reproduce the following graphic "./figue/unnamed-chunk-2".
+# Objective: Reproduce the following graphic "./figue/unnamed-chunk-2.png".
 
 setwd(file.path("C:", "Users", "sbote", "OneDrive", "Documentos", 
                 "DataScienceSpecialization", "4 Exploratory data analysis", 
