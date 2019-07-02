@@ -6,9 +6,10 @@
 # Date: 2019/06/30
 # Encoding: UTF-1
 
-# Objective: Reproduce the following graphic "./figue/unnamed-chunk-2".
+# Objective: Reproduce the following graphic "./figue/unnamed-chunk-3".
 
-setwd(file.path("C:", "Users", "sbote", "OneDrive", "Documentos", 
+setwd(file.path("d:", "Users", "sbotero", 
+                "Comisión Federal de Competencia Económica", "Varios - General", 
                 "DataScienceSpecialization", "4 Exploratory data analysis", 
                 "Week1", "ExData_Plotting1"))
 
@@ -36,17 +37,15 @@ setwd(file.path("C:", "Users", "sbote", "OneDrive", "Documentos",
                                       "household_power_consumption.txt"), 
                             header = TRUE, sep = ";", na.strings = "?") %>%
     tbl_df %>%
-    mutate(Date = dmy(Date), Time = hms(Time)) %>%
+    mutate(Date_Time = dmy_hms(paste(Date, Time)), Date = dmy(Date), 
+           Time = hms(Time)) %>%
     filter(Date %in% c(ymd("2007-02-01"), ymd("2007-02-02"))) %>%
     print
   
-# 3. Reproducing plot 1
-  png("plot1.png")
-  with(consumption, hist(Global_active_power, col = "red", 
-                         main = "Global Active Power", 
-                         xlab = "Global Active Power (kilowatts)",
-                         axes = TRUE, freq = TRUE))
-  axis(1, at = c(0, 2, 4, 6))
-  axis(2, at = seq(0, 1200, by = 200))
+# 3. Reproducing plot 2
+  png("plot2.png")
+  with(consumption, plot(Date_Time, Global_active_power, type = "l",
+                         ylab = "Global Active Power (kilowatts)",
+                         xlab = ""))
   dev.off()
   
