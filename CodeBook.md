@@ -1,6 +1,6 @@
 # Original data source
 
-This dataset is based on the "Individual housold electric power consumption
+This dataset is based on the "Individual household electric power consumption
 data set", taken from the
 [UC Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/), which
 contains measurements of electric power consumption in one household with a
